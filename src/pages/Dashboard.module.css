@@ -1,0 +1,49 @@
+.divisaomaior{
+    display: grid;
+    grid-template-columns: 1fr 6fr ;
+    gap: 15px;
+    height: 100%;
+    background-color: #efefef;
+}
+
+.divisaomedia{
+    padding-top: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.divisaomenorb{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.divisaomenora{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.titulo{
+    text-align: start;
+    color: #006B2B;
+    font-size: 25px;
+}
+
+/*-----------------------------------Responsivo-------------------------------------------*/
+
+@media (max-width: 700px) {
+    .divisaomenorb{
+        display: block;
+    }
+
+    .divisaomenora{
+        display: block;
+    }
+    .azul{
+        background-color: #006B2B;
+        width: 120px;
+    }
+}

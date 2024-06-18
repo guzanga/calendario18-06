@@ -1,0 +1,293 @@
+.card_profs{
+    border-radius: 17px;
+    border: 3px solid;
+    border-color: #006B2B;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+.combobox{
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #006B2B;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    width: 60%;
+    margin: 15px;
+}
+
+
+.btncad{
+    margin-top: 25px;
+}
+
+.selects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color:  #003917;
+    font-size: 20px;
+}
+
+.professores{
+    font-size: 15px;
+    color: #003917;
+}
+
+.todos_profs{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    text-align: start;
+    padding-left: 15px;
+    height: 210px;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #006B2B;
+    border-radius: 30px;
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mais{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    background-color: #006B2B   ;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.mais:hover{
+    transition: 0.5s;
+    background-color: #8fd13f;
+}
+.logo{
+    width: 125px;
+    height: 90px;
+    transition: 1s;
+}
+
+.logo:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.lateral{
+    background-color: #006B2B;
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    gap: 20px;
+}
+
+.traco{
+    background-color: #8fd13f;
+    width: 100%;
+    height: 2px;
+}
+
+.itens{
+    color: white;
+    font-size: 20px;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+.td_itens{
+    display: grid;
+    gap: 50px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.itens:hover{
+    color: black;
+    transition: 0.7s;
+}
+
+
+.separa_inps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.inp{
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #006B2B;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    width: 80%;
+}
+.cadastrar_btn{
+    background-color: #006B2B;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.cadastrar_btn:hover{
+    background-color: #8fd13f;
+    height: 35px;
+    transition: 0.8s;
+}
+
+.campo{
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    display: flex;
+    align-items: center;
+    border: solid 2.5px;
+    border-color: #3cb623;
+    padding-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.campo3{
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    border: solid 2.5px;
+    border-color: #3cb623;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.todos_cursos{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    text-align: start;
+    height: 210px;
+    align-items: center;
+}
+
+.icon_lixeira{
+    color: #c52323;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.icon_lixeira:hover{
+    color: #f61e1e;
+    font-size: 24px;
+    transition: 0.5s;
+
+}
+
+.btn_lixeira{
+    background-color: white;
+    border: none;
+    width: 30px;
+}
+
+.todos_alunos{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    text-align: start;
+    padding-left: 10px;
+    padding-right:10px ;
+    height: 210px;
+}
+
+.campo2{
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    border: solid 2.5px;
+    border-color: #3cb623;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn_vermais {
+    border: none;
+    background-color: white;
+    color: #525252;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.lado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.separa_nome{
+    width: 100%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.modal-content{
+    border: 1px solid rgb(204, 204, 204) !important;
+    background: rgb(255, 255, 255) !important;
+    overflow: auto !important;
+    border-radius: 4px !important;
+    outline: none;
+    padding: 20px !important;
+    margin: 0 !important;
+    width: 40% !important;
+    height: 301px !important;
+}

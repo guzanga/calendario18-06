@@ -1,0 +1,149 @@
+.container{
+    border: solid 3px;
+    border-color: #006B2B;
+    border-radius: 17px;
+    min-width:40%;
+    max-width: 50%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+}
+
+.chek{
+    height: 30px;
+}
+
+.lista_feriados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.td{
+    background-color: #efefef;
+    min-height: 100vh;
+}
+
+.listar_feriados{
+    text-align: start;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.btn_feriados{
+    background-color: #006B2B;
+    color: white;
+    border-radius: 7px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    transition: 0.8s;
+    margin-bottom: 20px;
+}
+
+
+.btn_feriados:hover{
+    background-color: #8fd13f;
+    transition: 0.8s;
+}
+
+.titulo{
+    font-size: 22px;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 10px;
+    border: solid 3px;
+    border-color: #006B2B;
+    border-radius: 13px;
+    text-align: center;
+    width: 95%;
+    align-items: center;
+}
+
+.itens2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 10px;
+    border: solid 3px;
+    border-color: #006B2B;
+    border-radius: 13px;
+    text-align: center;
+    width: 95%;
+}
+
+
+.excluir_btn{
+    text-align: center;
+    width: 70px;
+    background-color: white;
+    border: none;
+}
+
+.icon_lixeira{
+    color: #c52323;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.icon_lixeira:hover{
+    color: #f61e1e;
+    font-size: 24px;
+    transition: 0.5s;
+
+}
+
+.separa_inps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.inp{
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #006B2B;
+    box-shadow: 4px 4px 9px 1px #a3a3a3;
+    width: 80%;
+}
+
+.cadastrar_btn{
+    background-color: #006B2B;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.cadastrar_btn:hover{
+    background-color: #8fd13f;
+    transition: 0.8s;
+}

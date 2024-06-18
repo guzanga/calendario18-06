@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-color: #0F5472;
+    border-radius: 17px;
+    box-shadow: 5px 5px 10px 3px #a3a3a3;
+    width: 40%;
+    height: 60%;
+    background-color: white;
+}
+
+.erro{
+    width: 35%;
+    height: 50%;
+}
+
+.td{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.titulo{
+    color: #0F5472;
+    font-size: 30px;
+}
